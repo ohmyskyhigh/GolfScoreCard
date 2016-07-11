@@ -2,4 +2,5 @@
     <string name="app_name">Golf Score Card</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="clear_record">clear record</string>
+    <string name="there_apos_s_no_data_bro">There\'s no data bro!!</string>
 </resources>

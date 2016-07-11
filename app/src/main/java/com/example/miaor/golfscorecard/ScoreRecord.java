@@ -1,15 +1,18 @@
 package com.example.miaor.golfscorecard;
 
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  * created by the one and only, Runkun Miao!!!!!!!!!
  */
-public class ScoreRecord {
+public class ScoreRecord{
     private int mScores;
     private String mHoles;
 
 
-    public ScoreRecord(int Scores, String Holes){
+    public ScoreRecord(String Holes, int Scores){
         mHoles = Holes;
         mScores = Scores;
     }

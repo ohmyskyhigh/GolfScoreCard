@@ -9,16 +9,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="18"
+        tools:text="Hole 18"
         android:id="@+id/HoleNoList"
-        android:textSize="32sp"/>
+        android:textSize="32sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="10"
+        tools:text="10"
         android:id="@+id/StrikeNumberList"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="32sp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/minis"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/plus"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/minis"
+        android:layout_toStartOf="@+id/minis"/>
 </RelativeLayout>
